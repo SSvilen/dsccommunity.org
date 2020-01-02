@@ -83,7 +83,7 @@ If there are any tags missing then create those tags.
    following shows how to tag `v13.1.0` on the specific
    commit and adding a descriptive text on the tag.
    ```bash
-   git tag -a v13.1.0 596ff25a61099b312a6f9e2eb2c6dccc9597ac28 -m "Release of version 13.1.0.0 of {RepositoryName}"
+   git tag -a 13.1.0 596ff25a61099b312a6f9e2eb2c6dccc9597ac28 -m "Release of version 13.1.0.0 of {RepositoryName}"
    ```
 1. Running `git tag` should list the new tags, and running `git show v13.1.0`
    would show a specific tag.
